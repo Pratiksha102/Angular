@@ -13,6 +13,9 @@ Npm is a package Manager for javascript . It allows users to consume and distrib
  
 Angular CLI
 Angular cli stands for command line Interface, it helps you initialize, develop and maintain angular applications.
+to check angular cli version we use ng version. angular cli version and angular app both are same.
+If I want to install a specific version npm install -g @angular/cli@10.0
+If I want to use 2 node version, depending on angular app, need to use node version Manager
 
 
 Ng version 
