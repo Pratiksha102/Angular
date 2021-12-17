@@ -1,0 +1,80 @@
+---------------------------Basic folder Structure--------------------------------------------------
+
+
+
+Package.json 
+
+functional attrributes of a project that npm uses to install dependencies , run scripts and identify the 
+entry point to our package
+
+Node_modules
+it is used to save all downloaded package from npm in your computer for the javascript project
+
+src 
+
+Components
+code that can be reused
+
+Assets
+Images etc
+
+Environments
+More than 1 environment can be setup , configuration for different environments such dev , prod , qa
+
+Index.html
+This is the first file that is loaded in the project, in angular inside body its written <app-root> </app-root>
+
+Main.Ts 
+The process of loading the index.html page, app-level module and app-level component is called bootstrapping
+or loading the app
+
+Style.css
+Css file
+
+--------------------------------Advance folder Structure--------------------------------------------
+package-lock.json 
+
+It stores the detailed version of dependencies, for example jasmine is internally dependent on 4-5 other
+packages
+
+angular.json
+Its the configuration file of the application , where we specify whcih file should be loaded when we first land on
+the page, main.ts etc
+
+tsconfig----> 3 types
+tsconfig.json
+basically angular uses typescript, so it has version like into which version of javascript it should be converted
+eg ecma 2017. This is for global configuration
+
+tsconfig.json
+This is the configuration file on app level
+
+tsconfig.spec.json
+This is the configuration file for testing
+
+browserlistrc
+it tells about what all browser version does it support
+
+karmaconfig.js
+configuration of test files
+
+polyfill.ts
+if we are using old browser which angular does not support, and the output is not as expected, then import 
+libraries in polyfill.ts, will get the expected output
+
+
+
+-------------------------------Interview questions-----------------------
+
+what if i delete package.json?
+project wont run
+
+diff b/w package.json and package-lock.json
+
+overview of dependency vs detailed explanaton of dependency
+
+package-lock.json delete?
+can be generated again if use package-json
+
+
+

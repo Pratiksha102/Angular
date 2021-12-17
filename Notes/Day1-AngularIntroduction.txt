@@ -1,0 +1,19 @@
+ANGULAR
+
+Introduction
+It is developed by google, first version was released in the year 2016
+The first version is called as Angular js
+After that the version which are released are called as angular 2+.
+Angular has MVC based architecture for application development.
+
+
+What is NPM(Node package Manager)
+Npm is a package Manager for javascript . It allows users to consume and distribute javascript modules
+ that are  available in registry. Some common examples are socket.io and express js
+ 
+Angular CLI
+Angular cli stands for command line Interface, it helps you initialize, develop and maintain angular applications.
+
+
+Ng version 
+ng new 
