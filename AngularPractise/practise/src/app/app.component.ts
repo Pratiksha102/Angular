@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practise';
+  blogs='hey its me';
+
+  getdata()
+  {
+    return 'buffalo';
+  }
 }
