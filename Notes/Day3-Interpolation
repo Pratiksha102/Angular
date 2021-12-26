@@ -1,11 +1,12 @@
 Interpolation
 
 What is Interpolation?
-Dynamic data which is stored on app.component.ts file can be displayed on app.component.html page with the help of interpolation.
+Dynamic data which is stored on app.component.ts file can be displayed on app.component.html page 
+with the help of interpolation.
 
 
 what can we do with Interpolation?
-Inside double braces, it works like javascript {{2+2}} ----> It will return the putput as 4, eg {{title=="blog"}}
+Inside double braces, it works like javascript {{2+2}} ----> It will return the output as 4, eg {{title=="blog"}}
 if it satisfies the condition it will return true else false
 
 
@@ -15,4 +16,4 @@ initialization wont work , eg {{new title}}
 
 Interview Question
 
-<h1 class="{{title}}"> {{title}} </h1>
+<h1 class="{{title}}"> {{title}} </h1>, we can add classes also in interpolation.

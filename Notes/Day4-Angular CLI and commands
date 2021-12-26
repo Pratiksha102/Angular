@@ -1,0 +1,31 @@
+
+Angular CLI and Important commands
+
+command line tool, it helps to generate components features
+Some of the important command line are
+ 
+
+ 1 ng help
+
+ By defualt app is a root component
+
+ Component
+ To generate a component we use the command
+ ng generate component componentName -----> ng g c Register
+
+ Module
+ Module is a bigger and complex functionality, example user module can contain  sign In, Log In , Log out
+ Example ng g m user-auth 
+To create a component inside module ,
+ng g c user-auth/signin
+ng f c user-auth/signOut
+
+How to generate a build, to generate abuild we use the command
+ng  build
+
+The build will be created under the folder name dist\ project name
+so this build is deployed into server
+build is basically the minified version of the project, it consists of main.ts polyfill.ts and other css file
+
+
+
