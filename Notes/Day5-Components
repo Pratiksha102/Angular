@@ -1,0 +1,21 @@
+What is a component?
+
+Component is a building block specifically used for certain functionality
+
+Interview Questions
+ you can change the component name by changing in ts file
+
+
+Component with Inline Style and Inline Template
+
+ng generate component user-list --inline-style
+It would not include css style
+
+ng generate component user-list --inline-template
+It would not include html 
+
+ng generate component user-list --inline-style --inline-template
+Neither Html nor css
+
+when wrinting html or css inline , it will have `` only
+
