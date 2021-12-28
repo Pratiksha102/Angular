@@ -1,0 +1,11 @@
+In jquery we  generally define variable, we use let var keyword to define variable ,and
+even for function we use function getname.
+but here everything is define inside classes so we dont need to use var let and other things , we can just 
+directly write function name
+
+
+In typescript you should always define the type when passing throigh function parameter, 
+if we dont know the type then we can use any 
+
+why its necessary todefine the type now and not in angular 10, 11 before
+Its because now in file tsconfig.json , we have strict mode=true , earlier it was strict mode=false
